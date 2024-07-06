@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Transport Services</title>
+<style type="text/css">
+.navbar {
+	background-color: gray;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+	background-color: #fff;
+	color: gray;
+}
+
+.navbar li {
+	text-align: center;
+	list-style-type: none;
+}
+
+header a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p, a {
+	font-size: 18px;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+}
+
+td {
+	vertical-align: top;
+}
+
+section {
+	background-color: #6b8e23;
+	font-size: 18px;
+	color: white;
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px solid black
+}
+
+.section {
+	border: 2px soild black;
+}
+
+.image-container {
+	float: right;
+	margin: 20px;
+	width: 20px;
+}
+</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul class="navbar">
+				<li class="inside"><a href="#">Home</a></li>
+				<li><a href="recenttrucks.html">Recently
+						Installed Trucks</a></li>
+				<li><a href="Status">Status</a></li>
+				<li><a href="Towardshere.html">Towards Here</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="ContactUs.html">Contact Us</a></li>
+			</ul>
+			<h1>Most Convenient & Reliable Transport Services</h1>
+			<p>
+				<a href="details.html">Click here for details</a>
+			</p>
+		</nav>
+	</header>
+	<table>
+		<tr>
+			<td>
+				<main>
+					<section class="section">
+						<div>
+							<h2>Welcome to Our Truck Tracking Company</h2>
+							<p>You can find all the information regarding our transport
+								company's services. Trucks and can contact us to get your
+								vehicle installed in our company. You can find how many vehicles
+								are on the road through our company to your city or closest to
+								it.</p>
+							<div>
+								<h2>FEATURED SERVICES</h2>
+								<table>
+									<tr>
+										<td>
+											<ul>
+												<li><a href="#">Free Core Java Tutorial</a></li>
+												<li><a href="#">JSP Tutorial</a></li>
+												<li><a href="#">Free Android Tutorial</a></li>
+												<li><a href="#">Struts and Hibernate Tutorial</a></li>
+											</ul>
+										</td>
+										<td>
+											<ul>
+												<li><a href="#">More Projects</a></li>
+												<li><a href="#">C++ Tutorial</a></li>
+												<li><a href="#">The Forum</a></li>
+												<li><a href="#">Html5sql Tutorial</a></li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td>
+											<h1>Login Form</h1>
+											<form action="mangerLoginform" method="post">
+													<label>Login Form</label>
+												<div class="select">
+													Branch :<select name="branch">
+														<option value="">Select a Branch</option>
+														<option value="Hyderabad">Hyderabad</option>
+														<option value="khammam">khammam</option>
+														<option value="banglore">banglore</option>
+														<option value="Indore">Indore</option>
+													</select>
+												</div>
+												<br> <label>Username: </label> <input type="text"
+													name="name1"> <br> <label>Password</label> <input
+													type="text" name="pword"> <br> <input
+													type="submit" value=login> <a
+													href="loginasadmmin.html">Login as Admin</a> <br> <a
+													href="details.jsp">Click here for details</a>
+											</form>
+										</td>
+										<td>
+											<h1>FEATURED EVENTS</h1>
+											<ul>
+												<li><a href="#">More Project</a></li>
+												<li><a href="#">C,C++ Tutorial</a></li>
+												<li><a href="#">The forum</a></li>
+												<li><a href="#">Html,Sql Tutorail</a></li>
+
+											</ul>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</section>
+				</main>
+			</td>
+			<td>
+				<!-- Moved the image container div outside the main tag -->
+				<div class="image-container">
+					<img alt="image" src="th.jpg"> <img alt="image" src="th.jpg">
+
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
